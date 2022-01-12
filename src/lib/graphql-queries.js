@@ -15,3 +15,28 @@ export const postsDetails = gql`
     }
   }
 `
+
+export const podcastsDetails = gql`
+  query GetPodcasts {
+    podcasts(first: 6) {
+      title
+      slug
+      excerpt
+      released
+      coverImage {
+        url
+      }
+    }
+  }
+`
+
+export const socialsDetails = gql`
+  query GetSocials {
+    socialLinks {
+      facebook
+      instagram
+      tikTok
+      twitter
+    }
+  }
+`

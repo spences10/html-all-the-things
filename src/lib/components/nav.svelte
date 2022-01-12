@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="navbar mb-2 shadow-lg bg-primary text-primary-content sticky top-0 z-10"
+  class="navbar mb-10 shadow-lg bg-primary text-primary-content sticky top-0 z-10"
 >
   <div class="px-2 mx-2 navbar-start" />
 
