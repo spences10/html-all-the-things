@@ -1,11 +1,16 @@
+<script>
+  export let height = '32px'
+  export let width = '32px'
+</script>
+
 <svg
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   aria-hidden="true"
   role="img"
-  class="iconify iconify--bx"
-  width="32"
-  height="32"
+  class="fill-current text-primary transition hover:text-primary-focus"
+  {width}
+  {height}
   preserveAspectRatio="xMidYMid meet"
   viewBox="0 0 24 24"
   ><path
