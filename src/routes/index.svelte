@@ -29,7 +29,7 @@
 </script>
 
 <div
-  class="grid gap-4 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-10"
+  class="grid gap-4 md:gap-10 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-10"
 >
   {#each posts as { title, coverImage: { url }, slug, authors, published }}
     <PostCard {title} {url} {slug} {authors} {published} />
@@ -40,7 +40,7 @@
 <div class="divider mb-10" />
 
 <div
-  class="grid gap-4 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-100"
+  class="grid gap-4 md:gap-10 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-100"
 >
   {#each podcasts as { title, coverImage: { url }, slug, excerpt, released }}
     <PodcastCard {title} {url} {slug} {excerpt} {released} />

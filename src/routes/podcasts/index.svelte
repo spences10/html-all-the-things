@@ -26,7 +26,7 @@
 </div>
 
 <div
-  class="grid gap-4 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-100"
+  class="grid gap-4 md:gap-10 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-100"
 >
   {#each podcasts as { title, coverImage: { url }, slug, excerpt, released }}
     <PodcastCard {title} {url} {slug} {excerpt} {released} />
