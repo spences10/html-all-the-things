@@ -5,9 +5,6 @@ const POST_FRAGMENT = gql`
     title
     slug
     published
-    coverImage {
-      url
-    }
     authors {
       name
     }
@@ -19,6 +16,13 @@ export const heroPostsDetails = gql`
   query GetHeroPosts {
     posts(first: 6) {
       ...PostDetails
+      coverImage {
+        url(
+          transformation: {
+            image: { resize: { width: 385, height: 210, fit: clip } }
+          }
+        )
+      }
     }
   }
 `
@@ -28,6 +32,13 @@ export const allPosts = gql`
   query GetAllPosts {
     posts {
       ...PostDetails
+      coverImage {
+        url(
+          transformation: {
+            image: { resize: { width: 385, height: 210, fit: clip } }
+          }
+        )
+      }
     }
   }
 `
@@ -38,6 +49,9 @@ export const postQuery = gql`
     post(where: { slug: $slug }) {
       ...PostDetails
       copy
+      coverImage {
+        url
+      }
     }
   }
 `
@@ -49,9 +63,6 @@ const PODCAST_FRAGMENT = gql`
     excerpt
     recorded
     released
-    coverImage {
-      url
-    }
   }
 `
 
@@ -60,6 +71,13 @@ export const heroPodcastsDetails = gql`
   query GetHeroPodcasts {
     podcasts(first: 6) {
       ...PodcastDetails
+      coverImage {
+        url(
+          transformation: {
+            image: { resize: { width: 385, height: 210, fit: clip } }
+          }
+        )
+      }
     }
   }
 `
@@ -69,6 +87,13 @@ export const allPodcasts = gql`
   query AllPodcasts {
     podcasts {
       ...PodcastDetails
+      coverImage {
+        url(
+          transformation: {
+            image: { resize: { width: 385, height: 210, fit: clip } }
+          }
+        )
+      }
     }
   }
 `
@@ -85,6 +110,9 @@ export const podcastQuery = gql`
         google
         podBean
         rss
+      }
+      coverImage {
+        url
       }
     }
   }

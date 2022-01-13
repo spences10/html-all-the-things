@@ -26,7 +26,7 @@
 </script>
 
 <Head
-  title={`${title} · ${name}`}
+  title={`${post.title} · ${name}`}
   {description}
   image="%svelte.assets%/a_hatt_logo_transparency_white-p-500"
   url={`${siteUrl}${$page.url.pathname}`}
