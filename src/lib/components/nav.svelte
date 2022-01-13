@@ -20,6 +20,11 @@
         href={`/posts`}
         class="rounded-btn btn btn-ghost btn-sm">Posts</a
       >
+      <a
+        sveltekit:prefetch
+        href={`/podcasts`}
+        class="rounded-btn btn btn-ghost btn-sm">Podcasts</a
+      >
     </ul>
   </div>
   <div class="mx-2 px-2 hidden navbar-center lg:flex">
@@ -29,6 +34,11 @@
         sveltekit:prefetch
         href={`/posts`}
         class="rounded-btn btn btn-ghost btn-sm">Posts</a
+      >
+      <a
+        sveltekit:prefetch
+        href={`/podcasts`}
+        class="rounded-btn btn btn-ghost btn-sm">Podcasts</a
       >
     </div>
   </div>

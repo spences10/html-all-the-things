@@ -6,7 +6,7 @@
   export let published = ''
 </script>
 
-<div class="relative card shadow-2xl">
+<div class="relative card shadow-2xl h-[300px]">
   <img src={url} alt={title} class="object-cover h-full" />
   <a href={`/posts/${slug}`}>
     <div
