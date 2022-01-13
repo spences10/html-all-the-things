@@ -5,20 +5,24 @@
   import TikTok from './icons/tik-tok.svelte'
   import Twitter from './icons/twitter.svelte'
 
+  export let textColor = 'primary'
+
   const { facebook, instagram, tikTok, twitter } = $socialsStore
+
+  textColor ? textColor : (textColor = 'secondary')
 </script>
 
-<div class="flex justify-center my-3">
-  <a href={facebook}>
-    <Facebook />
+<div class="flex justify-center my-3 space-x-4">
+  <a href={facebook} class="cursor-pointer">
+    <Facebook {textColor} />
   </a>
-  <a href={twitter}>
-    <Twitter />
+  <a href={twitter} class="cursor-pointer">
+    <Twitter {textColor} />
   </a>
-  <a href={instagram}>
-    <Instagram />
+  <a href={instagram} class="cursor-pointer">
+    <Instagram {textColor} />
   </a>
-  <a href={tikTok}>
-    <TikTok />
+  <a href={tikTok} class="cursor-pointer">
+    <TikTok {textColor} />
   </a>
 </div>

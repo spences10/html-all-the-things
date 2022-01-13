@@ -1,6 +1,7 @@
 <script>
   export let height = '32px'
   export let width = '32px'
+  export let textColor = ''
 </script>
 
 <svg
@@ -8,7 +9,9 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   aria-hidden="true"
   role="img"
-  class="fill-current text-primary transition hover:text-primary-focus"
+  class={textColor === 'primary'
+    ? `text-primary hover:text-primary-focus`
+    : `text-secondary hover:text-secondary-focus`}
   {width}
   {height}
   preserveAspectRatio="xMidYMid meet"
