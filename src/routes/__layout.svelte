@@ -1,4 +1,5 @@
 <script>
+  import Footer from '$components/footer.svelte'
   import Header from '$lib/components/header.svelte'
   import Nav from '$lib/components/nav.svelte'
   import Socials from '$lib/components/socials.svelte'
@@ -17,3 +18,4 @@
 <main class="container max-w-3xl mx-auto px-4 mb-20">
   <slot />
 </main>
+<Footer />
