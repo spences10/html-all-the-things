@@ -10,4 +10,4 @@ const fetchSocials = async () => {
   return socialLinks[0]
 }
 
-socialsStore.set(await fetchSocials())
+socialsStore.set(fetchSocials())
