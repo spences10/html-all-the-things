@@ -1,5 +1,8 @@
 <script context="module">
+  import { page } from '$app/stores'
+  import Head from '$components/head.svelte'
   import PodcastCard from '$components/podcast-card.svelte'
+  import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import { allPodcasts } from '$lib/graphql-queries'
   export const load = async () => {
@@ -16,6 +19,13 @@
 <script>
   export let podcasts
 </script>
+
+<Head
+  title={`Web Dev Podcast · ${name}`}
+  {description}
+  image="%svelte.assets%/a_hatt_logo_transparency_white-p-500"
+  url={`${siteUrl}${$page.url.pathname}`}
+/>
 
 <div class="flex flex-col mb-10 tracking-widest font-black">
   <h1 class="text-4xl text-center mb-3">

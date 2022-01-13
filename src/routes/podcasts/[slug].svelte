@@ -1,6 +1,9 @@
 <script context="module">
+  import { page } from '$app/stores'
+  import Head from '$components/head.svelte'
   import PodcastProviders from '$components/podcast-providers.svelte'
   import SpotifyPlayer from '$components/spotify-player.svelte'
+  import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import { podcastQuery } from '$lib/graphql-queries'
   import { marked } from 'marked'
@@ -30,6 +33,13 @@
     podcastProviders,
   } = podcast
 </script>
+
+<Head
+  title={`${title} · ${name}`}
+  {description}
+  image="%svelte.assets%/a_hatt_logo_transparency_white-p-500"
+  url={`${siteUrl}${$page.url.pathname}`}
+/>
 
 <div class="prose prose-xl">
   <h1>{title}</h1>

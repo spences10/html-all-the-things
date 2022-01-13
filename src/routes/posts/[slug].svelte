@@ -1,4 +1,7 @@
 <script context="module">
+  import { page } from '$app/stores'
+  import Head from '$components/head.svelte'
+  import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import { postQuery } from '$lib/graphql-queries'
   import { marked } from 'marked'
@@ -21,6 +24,13 @@
 
   const { title, published, coverImage, copy } = post
 </script>
+
+<Head
+  title={`${title} · ${name}`}
+  {description}
+  image="%svelte.assets%/a_hatt_logo_transparency_white-p-500"
+  url={`${siteUrl}${$page.url.pathname}`}
+/>
 
 <div
   class="px-2 sm:-mx-2 md:-mx-4 lg:-mx-20 xl:-mx-48 2xl:-mx-64 mb-5"

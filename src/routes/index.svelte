@@ -1,6 +1,8 @@
 <script context="module">
+  import Head from '$components/head.svelte'
   import PodcastCard from '$components/podcast-card.svelte'
   import PostCard from '$lib/components/post-card.svelte'
+  import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import {
     heroPodcastsDetails,
@@ -27,6 +29,13 @@
   export let posts
   export let podcasts
 </script>
+
+<Head
+  title={`${name} · ${description}`}
+  {description}
+  image="%svelte.assets%/a_hatt_logo_transparency_white-p-500"
+  url={`${siteUrl}`}
+/>
 
 <div
   class="grid gap-4 md:gap-10 md:grid-cols-2 lg:grid-cols-3 md:px-10 lg:-mx-32 xl:-mx-72 mb-10"
