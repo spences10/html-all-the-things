@@ -9,15 +9,15 @@
 </script>
 
 <div class="card shadow-2xl">
-  <figure>
-    <img src={url} alt={title} class="object-cover h-full" />
-  </figure>
   <a href={`/podcasts/${slug}`}>
+    <figure>
+      <img src={url} alt={title} class="object-cover h-full" />
+    </figure>
     <div class="card-body">
-      <h2 class="font-bold lg:text-xl text-neutral-content mb-3">
+      <h2 class="font-bold text-2xl mb-3">
         {title}
       </h2>
-      <span>{released}</span>
+      <span>{new Date(released).toDateString()}</span>
       <span>{@html marked(excerpt.slice(0, 180))}</span>
     </div>
   </a>
