@@ -28,7 +28,7 @@
 <Head
   title={`${post.title} · ${name}`}
   {description}
-  image="%svelte.assets%/a_hatt_logo_transparency_white-p-500"
+  image={coverImage.url}
   url={`${siteUrl}${$page.url.pathname}`}
 />
 
