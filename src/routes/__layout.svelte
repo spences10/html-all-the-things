@@ -1,9 +1,5 @@
 <script context="module">
   export const load = async ({ url, params }) => {
-    console.log('=====================')
-    console.log(url)
-    console.log(params)
-    console.log('=====================')
     return {
       props: {
         key: url.pathname,
