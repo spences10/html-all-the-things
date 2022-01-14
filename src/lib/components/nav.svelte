@@ -6,32 +6,35 @@
 <div
   class="navbar mb-10 shadow-lg bg-primary text-primary-content sticky top-0 z-10"
 >
-  <div class="px-2 mx-2 navbar-start" />
-
-  <div class="dropdown dropdown-right lg:hidden">
-    <div tabindex="0" class="m-1 btn bg-secondary"><Menu /></div>
-    <ul
-      tabindex="0"
-      class="bg-secondary rounded-box shadow text-primary-content p-2 w-52 menu dropdown-content "
-    >
-      <a href="/" class="btn btn-ghost btn-sm rounded-btn"> Home </a>
-      <a
-        sveltekit:prefetch
-        href={`/posts`}
-        class="rounded-btn btn btn-ghost btn-sm">Posts</a
+  <div class="px-2 mx-2 navbar-start">
+    <div class="dropdown dropdown-right lg:hidden">
+      <div tabindex="0" class="m-1 btn bg-secondary"><Menu /></div>
+      <ul
+        tabindex="0"
+        class="bg-secondary rounded-box shadow text-primary-content p-2 w-52 menu dropdown-content "
       >
-      <a
-        sveltekit:prefetch
-        href={`/podcasts`}
-        class="rounded-btn btn btn-ghost btn-sm">Podcasts</a
-      >
-      <a
-        sveltekit:prefetch
-        href={`/contact`}
-        class="rounded-btn btn btn-ghost btn-sm">Contact</a
-      >
-    </ul>
+        <a href="/" class="btn btn-ghost btn-sm rounded-btn">
+          Home
+        </a>
+        <a
+          sveltekit:prefetch
+          href={`/posts`}
+          class="rounded-btn btn btn-ghost btn-sm">Posts</a
+        >
+        <a
+          sveltekit:prefetch
+          href={`/podcasts`}
+          class="rounded-btn btn btn-ghost btn-sm">Podcasts</a
+        >
+        <a
+          sveltekit:prefetch
+          href={`/contact`}
+          class="rounded-btn btn btn-ghost btn-sm">Contact</a
+        >
+      </ul>
+    </div>
   </div>
+
   <div class="mx-2 px-2 hidden navbar-center lg:flex">
     <div class="flex items-stretch">
       <a href="/" class="btn btn-ghost btn-sm rounded-btn"> Home </a>
