@@ -6,6 +6,7 @@ specifiers:
   '@tailwindcss/typography': ^0.5.0
   autoprefixer: ^10.4.2
   daisyui: ^1.22.2
+  fathom-client: ^3.2.0
   graphql: ^16.2.0
   graphql-request: ^3.7.0
   marked: ^4.0.10
@@ -19,10 +20,11 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.10
-  '@sveltejs/kit': 1.0.0-next.228_svelte@3.46.1
+  '@sveltejs/kit': 1.0.0-next.229_svelte@3.46.1
   '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.13
   autoprefixer: 10.4.2_postcss@8.4.5
   daisyui: 1.22.2
+  fathom-client: 3.2.0
   graphql: 16.2.0
   graphql-request: 3.7.0_graphql@16.2.0
   marked: 4.0.10
@@ -118,8 +120,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.228_svelte@3.46.1:
-    resolution: {integrity: sha512-77e8G7CcmqHhMyAbtjrAWjRDDgFiZArFhujKGql5YM68TWx0cCoipqGdhK0m3EJ/t/NL+T2YuK/9nvtrSNEK6A==}
+  /@sveltejs/kit/1.0.0-next.229_svelte@3.46.1:
+    resolution: {integrity: sha512-i609g5T58Qdgh/qgO1atak70R7woNuJwWp7GtF/YUOZ9csMR9JPUr1tfX9lSh2I4Ez7j+Dc10RLlQ3szVywfXA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -651,6 +653,10 @@ packages:
     resolution: {integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==}
     dependencies:
       reusify: 1.0.4
+    dev: true
+
+  /fathom-client/3.2.0:
+    resolution: {integrity: sha512-WF/qA5wXYSuA5K8uiIhGNbErOcTAmfLEWrBxWP2px2dEc9waH9zxjdh9k0F907VCBhdJrv+f7V3HT/Pmro40zA==}
     dev: true
 
   /fill-range/7.0.1:
