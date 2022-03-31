@@ -13,14 +13,14 @@ specifiers:
   postcss: 8.4.12
   prettier: 2.6.1
   prettier-plugin-svelte: 2.6.0
-  svelte: 3.46.4
+  svelte: 3.46.6
   svelte-preprocess: 4.10.4
   tailwindcss: 3.0.23
   theme-change: 2.0.2
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.33
-  '@sveltejs/kit': 1.0.0-next.303_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.303_svelte@3.46.6
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
   autoprefixer: 10.4.4_postcss@8.4.12
   daisyui: 2.13.4_081650f2f4dba35b17265937ab2a2ec0
@@ -30,9 +30,9 @@ devDependencies:
   marked: 4.0.12
   postcss: 8.4.12
   prettier: 2.6.1
-  prettier-plugin-svelte: 2.6.0_prettier@2.6.1+svelte@3.46.4
-  svelte: 3.46.4
-  svelte-preprocess: 4.10.4_postcss@8.4.12+svelte@3.46.4
+  prettier-plugin-svelte: 2.6.0_prettier@2.6.1+svelte@3.46.6
+  svelte: 3.46.6
+  svelte-preprocess: 4.10.4_postcss@8.4.12+svelte@3.46.6
   tailwindcss: 3.0.23_autoprefixer@10.4.4
   theme-change: 2.0.2
 
@@ -120,16 +120,16 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.303_svelte@3.46.4:
+  /@sveltejs/kit/1.0.0-next.303_svelte@3.46.6:
     resolution: {integrity: sha512-WdxDc8OiF1WEd/bEza7CBdzA+3qIcCi1GKBj/gieKX9I3N8iDJt/Cg2POrLo9wQoJ47nZcAd1eOhfr7XEX1aIQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
       svelte: ^3.44.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.4+vite@2.8.1
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.6+vite@2.8.1
       sade: 1.8.1
-      svelte: 3.46.4
+      svelte: 3.46.6
       vite: 2.8.1
     transitivePeerDependencies:
       - diff-match-patch
@@ -139,7 +139,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.4+vite@2.8.1:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.6+vite@2.8.1:
     resolution: {integrity: sha512-qZH2jndijrdkvevgbO7OH3iQsviM5Kz7h5APiNP4yEMZTrwq9bifzYvco6BprwtPvLb5wYlRVFZUOdusY6AovQ==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -155,8 +155,8 @@ packages:
       kleur: 4.1.4
       magic-string: 0.25.7
       require-relative: 0.8.7
-      svelte: 3.46.4
-      svelte-hmr: 0.14.9_svelte@3.46.4
+      svelte: 3.46.6
+      svelte-hmr: 0.14.9_svelte@3.46.6
       vite: 2.8.1
     transitivePeerDependencies:
       - supports-color
@@ -1140,14 +1140,14 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte/2.6.0_prettier@2.6.1+svelte@3.46.4:
+  /prettier-plugin-svelte/2.6.0_prettier@2.6.1+svelte@3.46.6:
     resolution: {integrity: sha512-NPSRf6Y5rufRlBleok/pqg4+1FyGsL0zYhkYP6hnueeL1J/uCm3OfOZPsLX4zqD9VAdcXfyEL2PYqGv8ZoOSfA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
       prettier: 2.6.1
-      svelte: 3.46.4
+      svelte: 3.46.6
     dev: true
 
   /prettier/2.6.1:
@@ -1283,15 +1283,15 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-hmr/0.14.9_svelte@3.46.4:
+  /svelte-hmr/0.14.9_svelte@3.46.6:
     resolution: {integrity: sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
-      svelte: 3.46.4
+      svelte: 3.46.6
     dev: true
 
-  /svelte-preprocess/4.10.4_postcss@8.4.12+svelte@3.46.4:
+  /svelte-preprocess/4.10.4_postcss@8.4.12+svelte@3.46.6:
     resolution: {integrity: sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1339,11 +1339,11 @@ packages:
       postcss: 8.4.12
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.46.4
+      svelte: 3.46.6
     dev: true
 
-  /svelte/3.46.4:
-    resolution: {integrity: sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==}
+  /svelte/3.46.6:
+    resolution: {integrity: sha512-o9nNft/OzCz/9kJpmWa1S52GAM+huCjPIsNWydYmgei74ZWlOA9/hN9+Z12INdklghu31seEXZMRHhS1+8DETw==}
     engines: {node: '>= 8'}
     dev: true
 
