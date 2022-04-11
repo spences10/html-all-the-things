@@ -9,7 +9,7 @@ specifiers:
   fathom-client: 3.4.1
   graphql: 16.3.0
   graphql-request: 4.2.0
-  marked: 4.0.13
+  marked: 4.0.14
   postcss: 8.4.12
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
@@ -27,7 +27,7 @@ devDependencies:
   fathom-client: 3.4.1
   graphql: 16.3.0
   graphql-request: 4.2.0_graphql@16.3.0
-  marked: 4.0.13
+  marked: 4.0.14
   postcss: 8.4.12
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.47.0
@@ -952,8 +952,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /marked/4.0.13:
-    resolution: {integrity: sha512-lS/ZCa4X0gsRcfWs1eoh6dLnHr9kVH3K1t2X4M/tTtNouhZ7anS1Csb6464VGLQHv8b2Tw1cLeZQs58Jav8Rzw==}
+  /marked/4.0.14:
+    resolution: {integrity: sha512-HL5sSPE/LP6U9qKgngIIPTthuxC0jrfxpYMZ3LdGDD3vTnLs59m2Z7r6+LNDR3ToqEQdkKd6YaaEfJhodJmijQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
