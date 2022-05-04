@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-auto': next
@@ -9,7 +9,7 @@ specifiers:
   fathom-client: 3.4.1
   graphql: 16.4.0
   graphql-request: 4.2.0
-  marked: 4.0.14
+  marked: 4.0.15
   postcss: 8.4.13
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
@@ -23,16 +23,16 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.324_svelte@3.47.0
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.24
   autoprefixer: 10.4.5_postcss@8.4.13
-  daisyui: 2.14.2_1824c569936d24bc346301fad9d96c12
+  daisyui: 2.14.2_dasmk2mtnuslynddah5ntwlmci
   fathom-client: 3.4.1
   graphql: 16.4.0
   graphql-request: 4.2.0_graphql@16.4.0
-  marked: 4.0.14
+  marked: 4.0.15
   postcss: 8.4.13
   prettier: 2.6.2
-  prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.47.0
+  prettier-plugin-svelte: 2.7.0_sqtt6dzjlskmywoml5ykunxlce
   svelte: 3.47.0
-  svelte-preprocess: 4.10.6_postcss@8.4.13+svelte@3.47.0
+  svelte-preprocess: 4.10.6_4jtua4syoih22gjrmahnwfwe4q
   tailwindcss: 3.0.24
   theme-change: 2.0.2
 
@@ -340,7 +340,7 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.14.2_1824c569936d24bc346301fad9d96c12:
+  /daisyui/2.14.2_dasmk2mtnuslynddah5ntwlmci:
     resolution: {integrity: sha512-/FxRBLC/xydIqxv+EJHfmmH+UndrwcaAxbWsS/oVLnoeOdb4MN4VlkJ3sYOYrl3tmw/D1L5Lp0PK07ebY0O6QA==}
     peerDependencies:
       autoprefixer: ^10.0.2
@@ -826,8 +826,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /marked/4.0.14:
-    resolution: {integrity: sha512-HL5sSPE/LP6U9qKgngIIPTthuxC0jrfxpYMZ3LdGDD3vTnLs59m2Z7r6+LNDR3ToqEQdkKd6YaaEfJhodJmijQ==}
+  /marked/4.0.15:
+    resolution: {integrity: sha512-esX5lPdTfG4p8LDkv+obbRCyOKzB+820ZZyMOXJZygZBHrH9b3xXR64X4kT3sPe9Nx8qQXbmcz6kFSMt4Nfk6Q==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -1012,7 +1012,7 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte/2.7.0_prettier@2.6.2+svelte@3.47.0:
+  /prettier-plugin-svelte/2.7.0_sqtt6dzjlskmywoml5ykunxlce:
     resolution: {integrity: sha512-fQhhZICprZot2IqEyoiUYLTRdumULGRvw0o4dzl5jt0jfzVWdGqeYW27QTWAeXhoupEZJULmNoH3ueJwUWFLIA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
@@ -1149,7 +1149,7 @@ packages:
       svelte: 3.47.0
     dev: true
 
-  /svelte-preprocess/4.10.6_postcss@8.4.13+svelte@3.47.0:
+  /svelte-preprocess/4.10.6_4jtua4syoih22gjrmahnwfwe4q:
     resolution: {integrity: sha512-I2SV1w/AveMvgIQlUF/ZOO3PYVnhxfcpNyGt8pxpUVhPfyfL/CZBkkw/KPfuFix5FJ9TnnNYMhACK3DtSaYVVQ==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
