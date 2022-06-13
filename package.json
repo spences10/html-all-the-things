@@ -18,7 +18,7 @@
     "fathom-client": "3.4.1",
     "graphql": "16.5.0",
     "graphql-request": "4.3.0",
-    "marked": "4.0.16",
+    "marked": "4.0.17",
     "postcss": "8.4.14",
     "prettier": "2.6.2",
     "prettier-plugin-svelte": "2.7.0",
