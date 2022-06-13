@@ -9,7 +9,7 @@ specifiers:
   fathom-client: 3.4.1
   graphql: 16.5.0
   graphql-request: 4.3.0
-  marked: 4.0.16
+  marked: 4.0.17
   postcss: 8.4.14
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
@@ -27,7 +27,7 @@ devDependencies:
   fathom-client: 3.4.1
   graphql: 16.5.0
   graphql-request: 4.3.0_graphql@16.5.0
-  marked: 4.0.16
+  marked: 4.0.17
   postcss: 8.4.14
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_kkjbqzpydplecjtkxrgomroeru
@@ -1114,8 +1114,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /marked/4.0.16:
-    resolution: {integrity: sha512-wahonIQ5Jnyatt2fn8KqF/nIqZM8mh3oRu2+l5EANGMhu6RFjiSG52QNE2eWzFMI94HqYSgN184NurgNG6CztA==}
+  /marked/4.0.17:
+    resolution: {integrity: sha512-Wfk0ATOK5iPxM4ptrORkFemqroz0ZDxp5MWfYA7H/F+wO17NRWV5Ypxi6p3g2Xmw2bKeiYOl6oVnLHKxBA0VhA==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -1196,7 +1196,7 @@ packages:
     resolution: {integrity: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==}
     hasBin: true
     dependencies:
-      minimist: 1.2.5
+      minimist: 1.2.6
     dev: true
 
   /mkdirp/1.0.4:
@@ -1946,7 +1946,7 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
   /xtend/4.0.2:
