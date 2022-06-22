@@ -15,7 +15,7 @@
     "@tailwindcss/typography": "0.5.2",
     "autoprefixer": "10.4.7",
     "daisyui": "2.15.4",
-    "fathom-client": "3.4.1",
+    "fathom-client": "3.5.0",
     "graphql": "16.5.0",
     "graphql-request": "4.3.0",
     "marked": "4.0.17",
