@@ -2,7 +2,7 @@
   import { page } from '$app/stores'
   import Head from '$components/head.svelte'
   import PostCard from '$lib/components/post-card.svelte'
-  import { description,name,siteUrl } from '$lib/config'
+  import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import { allPosts } from '$lib/graphql-queries'
   export const load = async () => {
