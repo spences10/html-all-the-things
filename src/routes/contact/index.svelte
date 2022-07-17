@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/stores'
-  import Head from '$components/head.svelte'
   import { description, name, siteUrl } from '$lib/config'
+  import { Head } from 'svead'
 </script>
 
 <Head

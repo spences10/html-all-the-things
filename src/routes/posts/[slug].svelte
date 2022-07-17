@@ -1,10 +1,10 @@
 <script context="module">
   import { page } from '$app/stores'
-  import Head from '$components/head.svelte'
   import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import { postQuery } from '$lib/graphql-queries'
   import { marked } from 'marked'
+  import { Head } from 'svead'
 
   export const load = async ({ params }) => {
     const { slug } = params

@@ -1,5 +1,4 @@
 <script context="module">
-  import Head from '$components/head.svelte'
   import PodcastCard from '$components/podcast-card.svelte'
   import PostCard from '$lib/components/post-card.svelte'
   import { description, name, siteUrl } from '$lib/config'
@@ -8,6 +7,8 @@
     heroPodcastsDetails,
     heroPostsDetails,
   } from '$lib/graphql-queries'
+  import { Head } from 'svead'
+
   export const load = async () => {
     const [postsRes, podcastsRes] = await Promise.all([
       client.request(heroPostsDetails),

@@ -1,12 +1,12 @@
 <script context="module">
   import { page } from '$app/stores'
-  import Head from '$components/head.svelte'
   import PodcastProviders from '$components/podcast-providers.svelte'
-  import SpotifyPlayer from '$components/spotify-player.svelte'
   import { description, name, siteUrl } from '$lib/config'
   import { client } from '$lib/graphql-client'
   import { podcastQuery } from '$lib/graphql-queries'
   import { marked } from 'marked'
+  import { Head } from 'svead'
+  import { Spotify } from 'sveltekit-embed'
 
   export const load = async ({ params }) => {
     const { slug } = params
@@ -69,7 +69,14 @@
 <h2 class="text-2xl">Listen</h2>
 <div class="divider" />
 
-<SpotifyPlayer spotifyLink={podcastProviders[0].spotify} />
+<Spotify
+  spotifyLink={podcastProviders[0].spotify.replace(
+    'https://open.spotify.com/',
+    ''
+  )}
+  width="100%"
+  height="180px"
+/>
 
 <PodcastProviders {podcastProviders} />
 
