@@ -19,14 +19,14 @@ specifiers:
   svelte: 3.49.0
   svelte-preprocess: 4.10.7
   sveltekit-embed: ^0.0.5
-  tailwindcss: 3.1.7
+  tailwindcss: 3.1.8
   theme-change: 2.2.0
   vite: 3.0.4
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.64
-  '@sveltejs/kit': 1.0.0-next.403_svelte@3.49.0+vite@3.0.4
-  '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.7
+  '@sveltejs/kit': 1.0.0-next.405_svelte@3.49.0+vite@3.0.4
+  '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.8
   autoprefixer: 10.4.8_postcss@8.4.14
   daisyui: 2.22.0_6qxuh3ctkxhae7jnbdaexscv2m
   fathom-client: 3.5.0
@@ -42,7 +42,7 @@ devDependencies:
   svelte: 3.49.0
   svelte-preprocess: 4.10.7_nxvsp6sjiltnatqa6jdm4mr6zu
   sveltekit-embed: 0.0.5
-  tailwindcss: 3.1.7
+  tailwindcss: 3.1.8
   theme-change: 2.2.0
   vite: 3.0.4
 
@@ -141,8 +141,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.403_svelte@3.49.0+vite@3.0.4:
-    resolution: {integrity: sha512-pKlmthl1SZkbx671Jp+LBoRne0vNzsjSgta9iRhqW/bt/0mx/IjlMd/NOeLuJGo30dAJdefrySoSamiaq47M/g==}
+  /@sveltejs/kit/1.0.0-next.405_svelte@3.49.0+vite@3.0.4:
+    resolution: {integrity: sha512-jHSa74F7k+hC+0fof75g/xm/+1M5sM66Qt6v8eLLMSgjkp36Lb5xOioBhbl6w0NYoE5xysLsBWuu+yHytfvCBA==}
     engines: {node: '>=16.9'}
     hasBin: true
     requiresBuild: true
@@ -154,6 +154,7 @@ packages:
       chokidar: 3.5.3
       sade: 1.8.1
       svelte: 3.49.0
+      tiny-glob: 0.2.9
       vite: 3.0.4
     transitivePeerDependencies:
       - diff-match-patch
@@ -183,7 +184,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography/0.5.4_tailwindcss@3.1.7:
+  /@tailwindcss/typography/0.5.4_tailwindcss@3.1.8:
     resolution: {integrity: sha512-QEdg40EmGvE7kKoDei8zr5sf4D1pIayHj4R31bH3lX8x2BtTiR+jNejYPOkhbmy3DXgkMF9jC8xqNiGFAuL9Sg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -191,7 +192,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.1.7
+      tailwindcss: 3.1.8
     dev: true
 
   /@types/minimatch/3.0.5:
@@ -513,7 +514,7 @@ packages:
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.14
       postcss-js: 4.0.0_postcss@8.4.14
-      tailwindcss: 3.1.7
+      tailwindcss: 3.1.8
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -1792,8 +1793,8 @@ packages:
     resolution: {integrity: sha512-2YpLULXG4CNPaCWh2IKb+TaEnrOX1UZTzeKSPY10Yhlv44ssbVm66eJEWbJV/Clng4EX0cWVo6sSFnIOzWZnVA==}
     dev: true
 
-  /tailwindcss/3.1.7:
-    resolution: {integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==}
+  /tailwindcss/3.1.8:
+    resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
