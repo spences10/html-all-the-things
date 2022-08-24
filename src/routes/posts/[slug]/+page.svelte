@@ -1,30 +1,11 @@
-<script context="module">
-  throw new Error("@migration task: Check code was safely removed (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292722)");
-
-  // import { page } from '$app/stores'
-  // import { description, name, siteUrl } from '$lib/config'
-  // import { client } from '$lib/graphql-client'
-  // import { postQuery } from '$lib/graphql-queries'
-  // import { marked } from 'marked'
-  // import { Head } from 'svead'
-
-  // export const load = async ({ params }) => {
-  //   const { slug } = params
-  //   const variables = { slug }
-  //   const { post } = await client.request(postQuery, variables)
-
-  //   return {
-  //     props: {
-  //       post,
-  //     },
-  //   }
-  // }
-</script>
-
 <script>
-  throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+  import { page } from '$app/stores'
+  import { description, name, siteUrl } from '$lib/config'
+  import { marked } from 'marked'
+  import { Head } from 'svead'
 
-  export let post
+  export let data
+  let { post } = data
 
   const { title, published, coverImage, copy } = post
 </script>

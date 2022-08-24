@@ -1,27 +1,11 @@
-<script context="module">
-  throw new Error("@migration task: Check code was safely removed (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292722)");
-
-  // import { page } from '$app/stores'
-  // import PostCard from '$lib/components/post-card.svelte'
-  // import { description, name, siteUrl } from '$lib/config'
-  // import { client } from '$lib/graphql-client'
-  // import { allPosts } from '$lib/graphql-queries'
-  // import { Head } from 'svead'
-  // export const load = async () => {
-  //   const { posts } = await await client.request(allPosts)
-
-  //   return {
-  //     props: {
-  //       posts,
-  //     },
-  //   }
-  // }
-</script>
-
 <script>
-  throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+  import { page } from '$app/stores'
+  import PostCard from '$lib/components/post-card.svelte'
+  import { description, name, siteUrl } from '$lib/config'
+  import { Head } from 'svead'
 
-  export let posts
+  export let data
+  let { posts } = data
 </script>
 
 <Head
