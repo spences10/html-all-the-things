@@ -1,22 +1,26 @@
 <script context="module">
-  import { page } from '$app/stores'
-  import PostCard from '$lib/components/post-card.svelte'
-  import { description, name, siteUrl } from '$lib/config'
-  import { client } from '$lib/graphql-client'
-  import { allPosts } from '$lib/graphql-queries'
-  import { Head } from 'svead'
-  export const load = async () => {
-    const { posts } = await await client.request(allPosts)
+  throw new Error("@migration task: Check code was safely removed (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292722)");
 
-    return {
-      props: {
-        posts,
-      },
-    }
-  }
+  // import { page } from '$app/stores'
+  // import PostCard from '$lib/components/post-card.svelte'
+  // import { description, name, siteUrl } from '$lib/config'
+  // import { client } from '$lib/graphql-client'
+  // import { allPosts } from '$lib/graphql-queries'
+  // import { Head } from 'svead'
+  // export const load = async () => {
+  //   const { posts } = await await client.request(allPosts)
+
+  //   return {
+  //     props: {
+  //       posts,
+  //     },
+  //   }
+  // }
 </script>
 
 <script>
+  throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+
   export let posts
 </script>
 

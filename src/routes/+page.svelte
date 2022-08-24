@@ -1,34 +1,11 @@
-<script context="module">
+<script>
   import PodcastCard from '$components/podcast-card.svelte'
   import PostCard from '$lib/components/post-card.svelte'
   import { description, name, siteUrl } from '$lib/config'
-  import { client } from '$lib/graphql-client'
-  import {
-    heroPodcastsDetails,
-    heroPostsDetails,
-  } from '$lib/graphql-queries'
   import { Head } from 'svead'
 
-  export const load = async () => {
-    const [postsRes, podcastsRes] = await Promise.all([
-      client.request(heroPostsDetails),
-      client.request(heroPodcastsDetails),
-    ])
-    const { posts } = postsRes
-    const { podcasts } = podcastsRes
-
-    return {
-      props: {
-        posts,
-        podcasts,
-      },
-    }
-  }
-</script>
-
-<script>
-  export let posts
-  export let podcasts
+  export let data
+  let { podcasts, posts } = data
 </script>
 
 <Head

@@ -1,23 +1,11 @@
-<script context="module">
+<script>
   import { page } from '$app/stores'
   import PodcastCard from '$components/podcast-card.svelte'
   import { description, name, siteUrl } from '$lib/config'
-  import { client } from '$lib/graphql-client'
-  import { allPodcasts } from '$lib/graphql-queries'
   import { Head } from 'svead'
-  export const load = async () => {
-    const { podcasts } = await await client.request(allPodcasts)
 
-    return {
-      props: {
-        podcasts,
-      },
-    }
-  }
-</script>
-
-<script>
-  export let podcasts
+  export let data
+  let { podcasts, posts } = data
 </script>
 
 <Head

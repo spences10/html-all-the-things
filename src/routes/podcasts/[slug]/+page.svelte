@@ -1,28 +1,13 @@
-<script context="module">
+<script>
   import { page } from '$app/stores'
   import PodcastProviders from '$components/podcast-providers.svelte'
   import { description, name, siteUrl } from '$lib/config'
-  import { client } from '$lib/graphql-client'
-  import { podcastQuery } from '$lib/graphql-queries'
   import { marked } from 'marked'
   import { Head } from 'svead'
   import { Spotify } from 'sveltekit-embed'
 
-  export const load = async ({ params }) => {
-    const { slug } = params
-    const variables = { slug }
-    const { podcast } = await client.request(podcastQuery, variables)
-
-    return {
-      props: {
-        podcast,
-      },
-    }
-  }
-</script>
-
-<script>
-  export let podcast
+  export let data
+  let { podcast } = data
 
   const {
     title,
