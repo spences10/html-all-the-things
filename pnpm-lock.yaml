@@ -10,7 +10,7 @@ specifiers:
   graphql: 16.6.0
   graphql-request: 4.3.0
   husky: ^8.0.1
-  marked: 4.0.18
+  marked: 4.0.19
   postcss: 8.4.16
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0
@@ -33,7 +33,7 @@ devDependencies:
   graphql: 16.6.0
   graphql-request: 4.3.0_graphql@16.6.0
   husky: 8.0.1
-  marked: 4.0.18
+  marked: 4.0.19
   postcss: 8.4.16
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0_o3ioganyptcsrh6x4hnxvjkpqi
@@ -1201,8 +1201,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /marked/4.0.18:
-    resolution: {integrity: sha512-wbLDJ7Zh0sqA0Vdg6aqlbT+yPxqLblpAZh1mK2+AO2twQkPywvvqQNfEPVwSSRjZ7dZcdeVBIAgiO7MMp3Dszw==}
+  /marked/4.0.19:
+    resolution: {integrity: sha512-rgQF/OxOiLcvgUAj1Q1tAf4Bgxn5h5JZTp04Fx4XUkVhs7B+7YA9JEWJhJpoO8eJt8MkZMwqLCNeNqj1bCREZQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
