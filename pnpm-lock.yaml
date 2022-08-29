@@ -8,7 +8,7 @@ specifiers:
   daisyui: 2.24.0
   fathom-client: 3.5.0
   graphql: 16.6.0
-  graphql-request: 4.3.0
+  graphql-request: 5.0.0
   husky: 8.0.1
   marked: 4.0.19
   postcss: 8.4.16
@@ -31,7 +31,7 @@ devDependencies:
   daisyui: 2.24.0_25hquoklqeoqwmt7fwvvcyxm5e
   fathom-client: 3.5.0
   graphql: 16.6.0
-  graphql-request: 4.3.0_graphql@16.6.0
+  graphql-request: 5.0.0_graphql@16.6.0
   husky: 8.0.1
   marked: 4.0.19
   postcss: 8.4.16
@@ -60,6 +60,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@graphql-typed-document-node/core/3.1.1_graphql@16.6.0:
+    resolution: {integrity: sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==}
+    peerDependencies:
+      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      graphql: 16.6.0
+    dev: true
 
   /@iarna/toml/2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
@@ -1026,11 +1034,12 @@ packages:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
 
-  /graphql-request/4.3.0_graphql@16.6.0:
-    resolution: {integrity: sha512-2v6hQViJvSsifK606AliqiNiijb1uwWp6Re7o0RTyH+uRTv/u7Uqm2g4Fjq/LgZIzARB38RZEvVBFOQOVdlBow==}
+  /graphql-request/5.0.0_graphql@16.6.0:
+    resolution: {integrity: sha512-SpVEnIo2J5k2+Zf76cUkdvIRaq5FMZvGQYnA4lUWYbc99m+fHh4CZYRRO/Ff4tCLQ613fzCm3SiDT64ubW5Gyw==}
     peerDependencies:
       graphql: 14 - 16
     dependencies:
+      '@graphql-typed-document-node/core': 3.1.1_graphql@16.6.0
       cross-fetch: 3.1.5
       extract-files: 9.0.0
       form-data: 3.0.1
