@@ -1,5 +1,5 @@
 <script>
-  import { browser } from '$app/env'
+  import { browser } from '$app/environment'
   import { page } from '$app/stores'
   import Footer from '$components/footer.svelte'
   import Header from '$lib/components/header.svelte'
