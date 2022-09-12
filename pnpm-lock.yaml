@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.7
   autoprefixer: 10.4.9
-  daisyui: 2.25.0
+  daisyui: 2.27.0
   fathom-client: 3.5.0
   graphql: 16.6.0
   graphql-request: 5.0.0
@@ -28,7 +28,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.480_svelte@3.50.1+vite@3.1.0
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
   autoprefixer: 10.4.9_postcss@8.4.16
-  daisyui: 2.25.0_sgpsnuuprrt5xbm24hei2nffhq
+  daisyui: 2.27.0_sgpsnuuprrt5xbm24hei2nffhq
   fathom-client: 3.5.0
   graphql: 16.6.0
   graphql-request: 5.0.0_graphql@16.6.0
@@ -547,8 +547,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.25.0_sgpsnuuprrt5xbm24hei2nffhq:
-    resolution: {integrity: sha512-tv2sFHMOCEr+3A2JOFMaFjV6O/tkXYrytCSptXU8GRS7FDCR0pUmHA/o6K+3nydor7rQ06gMyVbCDHE9WdMW0Q==}
+  /daisyui/2.27.0_sgpsnuuprrt5xbm24hei2nffhq:
+    resolution: {integrity: sha512-AhFGhTore1Kdnae+5RGc2PGESSXOjAQDHJfvryP+KY41gxMcNErtuaGZG+nOmvOzNKgxViSDSaOn/VZq6H8kxA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
