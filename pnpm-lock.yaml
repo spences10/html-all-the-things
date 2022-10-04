@@ -18,7 +18,7 @@ specifiers:
   svead: 0.0.3
   svelte: 3.50.1
   svelte-preprocess: 4.10.7
-  sveltekit-embed: 0.0.5
+  sveltekit-embed: 0.0.7
   tailwindcss: 3.1.8
   theme-change: 2.2.0
   vite: 3.1.4
@@ -41,7 +41,7 @@ devDependencies:
   svead: 0.0.3
   svelte: 3.50.1
   svelte-preprocess: 4.10.7_r763xggw3my2ousygwguxmp6ru
-  sveltekit-embed: 0.0.5
+  sveltekit-embed: 0.0.7
   tailwindcss: 3.1.8_postcss@8.4.17
   theme-change: 2.2.0
   vite: 3.1.4
@@ -1883,8 +1883,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /sveltekit-embed/0.0.5:
-    resolution: {integrity: sha512-2YpLULXG4CNPaCWh2IKb+TaEnrOX1UZTzeKSPY10Yhlv44ssbVm66eJEWbJV/Clng4EX0cWVo6sSFnIOzWZnVA==}
+  /sveltekit-embed/0.0.7:
+    resolution: {integrity: sha512-trhFCoawNb6ynQgTOpedbxUdGydGVaJyRM0ETN5EAE2UusEM4j1MFMFutJOZ0SNKt9sHhDQbC9XyPpCqCYCTvw==}
     dev: true
 
   /tailwindcss/3.1.8_postcss@8.4.17:
