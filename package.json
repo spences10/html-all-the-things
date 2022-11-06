@@ -19,7 +19,7 @@
     "@sveltejs/kit": "next",
     "@tailwindcss/typography": "0.5.7",
     "autoprefixer": "10.4.13",
-    "daisyui": "2.38.0",
+    "daisyui": "2.38.1",
     "fathom-client": "3.5.0",
     "graphql": "16.6.0",
     "graphql-request": "5.0.0",
