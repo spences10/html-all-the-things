@@ -10,7 +10,7 @@ specifiers:
   graphql: 16.6.0
   graphql-request: 5.0.0
   husky: 8.0.2
-  marked: 4.2.2
+  marked: 4.2.3
   postcss: 8.4.19
   prettier: 2.7.1
   prettier-plugin-svelte: 2.8.1
@@ -24,8 +24,8 @@ specifiers:
   vite: 3.2.4
 
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.88
-  '@sveltejs/kit': 1.0.0-next.553_svelte@3.53.1+vite@3.2.4
+  '@sveltejs/adapter-auto': 1.0.0-next.89
+  '@sveltejs/kit': 1.0.0-next.559_svelte@3.53.1+vite@3.2.4
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   autoprefixer: 10.4.13_postcss@8.4.19
   daisyui: 2.41.0_2lwn2upnx27dqeg6hqdu7sq75m
@@ -33,7 +33,7 @@ devDependencies:
   graphql: 16.6.0
   graphql-request: 5.0.0_graphql@16.6.0
   husky: 8.0.2
-  marked: 4.2.2
+  marked: 4.2.3
   postcss: 8.4.19
   prettier: 2.7.1
   prettier-plugin-svelte: 2.8.1_nryolsexf6k3znhuh4uzpugsem
@@ -99,14 +99,14 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.88:
-    resolution: {integrity: sha512-WcbELnu0Dz/72T1gbhDHxmNevVMEnQeNVi2IYrEj/uEKSMet4LOIrPv3DAAl8NETgBfzNJbMQpE7r9yL67CMTA==}
+  /@sveltejs/adapter-auto/1.0.0-next.89:
+    resolution: {integrity: sha512-S+sASFX4sSZD1xEKmZ3zHxQh2DGxXBUpCGAtUakKkI2MRvFIm+zYIm+7GPekofMLd19FjdFDKkuOjBKPdmA8+w==}
     dependencies:
       import-meta-resolve: 2.1.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.553_svelte@3.53.1+vite@3.2.4:
-    resolution: {integrity: sha512-6gUPzmry+j/0uFJnGAJNru3lUpGY12We1Vsom5nDeRaG/Cs2wCwK8gMO2B5taZsHmryIB8zA+v0QCcu5kClmWA==}
+  /@sveltejs/kit/1.0.0-next.559_svelte@3.53.1+vite@3.2.4:
+    resolution: {integrity: sha512-8Dx5w7O5LGbzzCQ0SG/1FI7cKtfsA1y0qr+mIfFHxb78oUW3P1h88Xs4nlrO7nJslaZ/BuBcj4yblMv1C5+rpQ==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -989,8 +989,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /marked/4.2.2:
-    resolution: {integrity: sha512-JjBTFTAvuTgANXx82a5vzK9JLSMoV6V3LBVn4Uhdso6t7vXrGx7g1Cd2r6NYSsxrYbQGFCMqBDhFHyK5q2UvcQ==}
+  /marked/4.2.3:
+    resolution: {integrity: sha512-slWRdJkbTZ+PjkyJnE30Uid64eHwbwa1Q25INCAYfZlK4o6ylagBy/Le9eWntqJFoFT93ikUKMv47GZ4gTwHkw==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
