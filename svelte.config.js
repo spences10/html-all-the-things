@@ -5,6 +5,11 @@ import preprocess from 'svelte-preprocess'
 const config = {
   kit: {
     adapter: adapter(),
+    alias: {
+      $components: './src/lib/components',
+      $lib: './src/lib',
+      $stores: './src/stores',
+    },
   },
 
   preprocess: [preprocess({})],

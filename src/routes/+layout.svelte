@@ -2,6 +2,10 @@
   import { browser } from '$app/environment'
   import { page } from '$app/stores'
   import Footer from '$components/footer.svelte'
+  import {
+    PUBLIC_FATHOM_ID,
+    PUBLIC_FATHOM_URL,
+  } from '$env/static/public'
   import Header from '$lib/components/header.svelte'
   import Nav from '$lib/components/nav.svelte'
   import Socials from '$lib/components/socials.svelte'
@@ -9,11 +13,10 @@
   import { onMount } from 'svelte'
   import { themeChange } from 'theme-change'
   import '../app.css'
-
   onMount(async () => {
     themeChange(false)
-    Fathom.load(import.meta.env.VITE_FATHOM_ID, {
-      url: import.meta.env.VITE_FATHOM_URL,
+    Fathom.load(PUBLIC_FATHOM_ID, {
+      url: PUBLIC_FATHOM_URL,
       excludedDomains: ['localhost'],
     })
   })

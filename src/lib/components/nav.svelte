@@ -9,24 +9,23 @@
   <div class="px-2 mx-2 navbar-start" />
 
   <div class="dropdown dropdown-right lg:hidden">
-    <div tabindex="0" class="m-1 btn bg-secondary"><Menu /></div>
+    <div class="m-1 btn bg-secondary"><Menu /></div>
     <ul
-      tabindex="0"
       class="bg-secondary rounded-box shadow text-primary-content p-2 w-52 menu dropdown-content "
     >
       <a href="/" class="btn btn-ghost btn-sm rounded-btn"> Home </a>
       <a
-        sveltekit:prefetch
+        data-sveltekit-prefetch
         href={`/posts`}
         class="rounded-btn btn btn-ghost btn-sm">Posts</a
       >
       <a
-        sveltekit:prefetch
+        data-sveltekit-prefetch
         href={`/podcasts`}
         class="rounded-btn btn btn-ghost btn-sm">Podcasts</a
       >
       <a
-        sveltekit:prefetch
+        data-sveltekit-prefetch
         href={`/contact`}
         class="rounded-btn btn btn-ghost btn-sm">Contact</a
       >
@@ -36,17 +35,17 @@
     <div class="flex items-stretch">
       <a href="/" class="btn btn-ghost btn-sm rounded-btn"> Home </a>
       <a
-        sveltekit:prefetch
+        data-sveltekit-prefetch
         href={`/posts`}
         class="rounded-btn btn btn-ghost btn-sm">Posts</a
       >
       <a
-        sveltekit:prefetch
+        data-sveltekit-prefetch
         href={`/podcasts`}
         class="rounded-btn btn btn-ghost btn-sm">Podcasts</a
       >
       <a
-        sveltekit:prefetch
+        data-sveltekit-prefetch
         href={`/contact`}
         class="rounded-btn btn btn-ghost btn-sm">Contact</a
       >
