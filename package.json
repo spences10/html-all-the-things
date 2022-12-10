@@ -26,7 +26,7 @@
     "husky": "8.0.2",
     "marked": "4.2.4",
     "postcss": "8.4.19",
-    "prettier": "2.8.0",
+    "prettier": "2.8.1",
     "prettier-plugin-svelte": "2.8.1",
     "pretty-quick": "3.1.3",
     "svead": "0.0.4",
