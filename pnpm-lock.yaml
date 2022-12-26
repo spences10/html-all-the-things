@@ -10,7 +10,7 @@ specifiers:
   graphql: 16.6.0
   graphql-request: 5.1.0
   husky: 8.0.2
-  marked: 4.2.4
+  marked: 4.2.5
   postcss: 8.4.20
   prettier: 2.8.1
   prettier-plugin-svelte: 2.9.0
@@ -33,7 +33,7 @@ devDependencies:
   graphql: 16.6.0
   graphql-request: 5.1.0_graphql@16.6.0
   husky: 8.0.2
-  marked: 4.2.4
+  marked: 4.2.5
   postcss: 8.4.20
   prettier: 2.8.1
   prettier-plugin-svelte: 2.9.0_ajxj753sv7dbwexjherrch25ta
@@ -991,8 +991,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /marked/4.2.4:
-    resolution: {integrity: sha512-Wcc9ikX7Q5E4BYDPvh1C6QNSxrjC9tBgz+A/vAhp59KXUgachw++uMvMKiSW8oA85nopmPZcEvBoex/YLMsiyA==}
+  /marked/4.2.5:
+    resolution: {integrity: sha512-jPueVhumq7idETHkb203WDD4fMA3yV9emQ5vLwop58lu8bTclMghBWcYAavlDqIEMaisADinV1TooIFCfqOsYQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
