@@ -23,7 +23,7 @@
     "fathom-client": "3.5.0",
     "graphql": "16.6.0",
     "graphql-request": "5.1.0",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "marked": "4.2.5",
     "postcss": "8.4.20",
     "prettier": "2.8.1",
