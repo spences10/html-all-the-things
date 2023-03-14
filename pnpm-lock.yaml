@@ -17,7 +17,7 @@ specifiers:
   pretty-quick: 3.1.3
   svead: 0.0.4
   svelte: 3.55.1
-  svelte-preprocess: 5.0.1
+  svelte-preprocess: 5.0.2
   sveltekit-embed: 0.0.12
   tailwindcss: 3.2.7
   theme-change: 2.5.0
@@ -40,7 +40,7 @@ devDependencies:
   pretty-quick: 3.1.3_prettier@2.8.4
   svead: 0.0.4
   svelte: 3.55.1
-  svelte-preprocess: 5.0.1_pehl75e5jsy22vp33udjja4soi
+  svelte-preprocess: 5.0.2_pehl75e5jsy22vp33udjja4soi
   sveltekit-embed: 0.0.12
   tailwindcss: 3.2.7_postcss@8.4.21
   theme-change: 2.5.0
@@ -359,18 +359,8 @@ packages:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
 
-  /@types/node/18.7.14:
-    resolution: {integrity: sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==}
-    dev: true
-
   /@types/pug/2.0.6:
     resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
-    dev: true
-
-  /@types/sass/1.43.1:
-    resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
-    dependencies:
-      '@types/node': 18.7.14
     dev: true
 
   /acorn-node/1.8.2:
@@ -1475,8 +1465,8 @@ packages:
       svelte: 3.55.1
     dev: true
 
-  /svelte-preprocess/5.0.1_pehl75e5jsy22vp33udjja4soi:
-    resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}
+  /svelte-preprocess/5.0.2_pehl75e5jsy22vp33udjja4soi:
+    resolution: {integrity: sha512-iXpIoa43VdF7fPkBdoodztZd4H+3EP/GYA66tbuLVtQnM3sWCpsOtc7HjfA7BDR+6VTpqlEnpDmPoXk0dgUa0g==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
     peerDependencies:
@@ -1490,7 +1480,7 @@ packages:
       stylus: ^0.55.0
       sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
       svelte: ^3.23.0
-      typescript: ^3.9.5 || ^4.0.0
+      typescript: '>=3.9.5 || ^4.0.0 || ^5.0.0'
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -1514,7 +1504,6 @@ packages:
         optional: true
     dependencies:
       '@types/pug': 2.0.6
-      '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.27.0
       postcss: 8.4.21
