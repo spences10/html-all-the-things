@@ -25,7 +25,7 @@
     "graphql-request": "6.1.0",
     "husky": "8.0.3",
     "marked": "5.0.4",
-    "postcss": "8.4.23",
+    "postcss": "8.4.24",
     "prettier": "2.8.8",
     "prettier-plugin-svelte": "2.10.1",
     "pretty-quick": "3.1.3",
