@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -18,8 +18,8 @@ devDependencies:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.24)
   daisyui:
-    specifier: 3.0.28
-    version: 3.0.28(postcss@8.4.24)
+    specifier: 3.1.5
+    version: 3.1.5(postcss@8.4.24)
   fathom-client:
     specifier: 3.5.0
     version: 3.5.0
@@ -607,8 +607,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui@3.0.28(postcss@8.4.24):
-    resolution: {integrity: sha512-Cvy3HKJS+CfwAVPinu2+L1cbjEEONuu26rWNRULrwTfpp0IGi8zn1Idc9cI2fDTXwbhEOPKitbmeeXG2qtT7Pw==}
+  /daisyui@3.1.5(postcss@8.4.24):
+    resolution: {integrity: sha512-3nk5L//IU31ISzsonKEFG8ris8hS/MRAc+PrOTOyRbssjv1fYmNKSdIrOhG6op2ED3RyJL4p6I81JUwd7RWqTw==}
     engines: {node: '>=16.9.0'}
     peerDependencies:
       postcss: ^8
